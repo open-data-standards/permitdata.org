@@ -14,15 +14,15 @@ If you want to add sample data to the list, you can open an issue or send a pull
 
 ### Search existing discussions
 
-Before creating a new discussion, you should take look through existing discussions to see of your questions has already been asked (and if an answer has already been provided). If a discussion addressing your question or problem has already been created, you can add a comment on an existing discussion.
+Before creating a new discussion, you should take look through [existing discussions](https://github.com/open-data-standards/permitdata.org/labels/Discussion) to see of your questions has already been asked (and if an answer has already been provided). If a discussion addressing your question or problem has already been created, you can add a comment on an existing discussion.
 
-![Search discussions](https://raw.githubusercontent.com/Accela-Inc/permitdata.org/gh-pages/search-discussions.png "Search existing discussions")
+![Search discussions](https://raw.githubusercontent.com/open-data-standards/permitdata.org/gh-pages/search-discussions.png "Search existing discussions")
 
 ### Comment on an existing discussion
 
 Simply scroll to the bottom of a discussion to add a new comment. You may enter text, or richer content and links using Markdown syntax.
 
-![Add a comment](https://raw.githubusercontent.com/Accela-Inc/permitdata.org/gh-pages/add-comment.png "Add a comment to a discussion")
+![Add a comment](https://raw.githubusercontent.com/open-data-standards/permitdata.org/gh-pages/add-comment.png "Add a comment to a discussion")
 
 ### Use Markdown syntax
 
@@ -32,19 +32,17 @@ This forum supports the use of [Github flavored Markdown syntax](https://help.gi
 
 You must be logged in to create a new discussion. Click on the "New Issue" button to create a new conversation.
 
-![Log in](https://raw.githubusercontent.com/Accela-Inc/permitdata.org/gh-pages/login.png "Log in")
+![Log in](https://raw.githubusercontent.com/open-data-standards/permitdata.org/gh-pages/login.png "Log in")
 
 ### Label a discussion
 
-Once you have created a new discussion, you can add labels that will enhance the description of your question or problem and make it easier for others to find.
-
-![Add a label](https://raw.githubusercontent.com/Accela-Inc/permitdata.org/gh-pages/add-label.png "Add a label to a discussion")
+Once you have created a new issue, you can add label it as a <code>discussion</code> item so that it will be obvious to other users that it is meant for review and comment.
 
 ### Add a mention in a discussion
 
 If you want to direct your comment, question or issue to a specific person you can add a mention in the text of your discussion or comment (do this by typing the '@' symbol and adding the persons GitHub user name).
 
-![Add a mention](https://raw.githubusercontent.com/Accela-Inc/permitdata.org/gh-pages/add-mention.png "Add a mention to a discussion")
+![Add a mention](https://raw.githubusercontent.com/open-data-standards/permitdata.org/gh-pages/add-mention.png "Add a mention to a discussion")
 
 ### Close an existing discussion
 
