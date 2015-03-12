@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An open data specification for building and land development permits">
+    <meta name="author" content="">
+
+    <title>Building and Land Development Specification</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <style>
+      body {
+        min-height: 2000px;
+        padding-top: 70px;
+      }
+      .navbar-brand {
+        font-weight: bold;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">BLDS Data Spec</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Learn more <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#involved">Get Involved</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit?usp=sharing">Data Specification</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/blds-data-specification">Discussion Forum</a></li>
+            <li class="active"><a>About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>About</h1>
+      </div>
+
+        <p>
+          The BLDS format represents a collaborative effort by civic technology companies, governments and other interested parties to create a shared data specification for building and construction permit data. This is part of a much broader effort to create shared standads for the open data being released by state, county and municipal governments. 
+        </p>
+
+        <p><a href="http://codeforamerica.org/cities/data-standards-faq/">Data standardization</a> across governments is a critical milestones that must be realized to advance the open data movement to fully realize all of the potential benefits of openly publishing government data.</p>
+
+        <h3>The Benefits of Data Standards</h3>
+
+        <p>The best example of what is possible when governments publish open data that conforms to a specific standard is the <a href="https://developers.google.com/transit/gtfs/">General Transit Feed Specification (GTFS)</a>. Developed by Google in partnership with the <a href="http://trimet.org/">Tri-County Metropolitan Transportation District</a> of Oregon (TriMet), GTFS is a data specification that is used by dozens of transit and transportation authorities across the country, and it has all of the qualities that open data advocates hope to replicate in other data standards for cities.</p>
+
+        <p>The GTFS standard is relatively easy to use – it’s a collection of zipped, comma-delimited text files. The wide availability and ease of use of GTFS data has spawned a <a href="http://www.citygoround.org/">cottage industry of transit applications</a> in cities across the country and continues to be used as the bedrock set of information for transit app developers.</p>
+
+        <p>Here is a list of government open data standards that are currently in use and those under development:</p>
+
+        <ul>
+        <li><a href="http://permitdata.org/">BLDS</a></li></li>
+        <li><a href="http://open311.org/">Open311</a></li>
+        <li><a href="https://developers.google.com/transit/gtfs/reference?csw=1">GTFS</a></li>
+        <li><a href="http://www.yelp.com/healthscores">LIVES</a></li>
+        <li><a href="http://housefacts.me/">House Facts</a></li>
+        <li><a href="https://github.com/CityOfPhiladelphia/flu-shot-spec">Flu Shot Locations</a></li>
+        </ul>
+
+        <p>Interested in helping out? Review the <a href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit?usp=sharing">draft specification here</a>, and join the <a href="https://groups.google.com/forum/#!forum/blds-data-specification">discussion forum</a> to add your thoughts and feedback.</p>
+
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+      /*!
+       * IE10 viewport hack for Surface/desktop Windows 8 bug
+       * Copyright 2014 Twitter, Inc.
+       * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+       * details, see http://creativecommons.org/licenses/by/3.0/.
+       */
+
+      // See the Getting Started docs for more information:
+      // http://getbootstrap.com/getting-started/#support-ie10-width
+
+      (function () {
+        'use strict';
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+          var msViewportStyle = document.createElement('style')
+          msViewportStyle.appendChild(
+            document.createTextNode(
+              '@-ms-viewport{width:auto!important}'
+            )
+          )
+          document.querySelector('head').appendChild(msViewportStyle)
+        }
+      })();
+    </script>
+  </body>
+</html>

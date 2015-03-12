@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An open data specification for building and land development permits">
+    <meta name="author" content="">
+
+    <title>Building and Land Development Specification</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <style>
+      body {
+        min-height: 2000px;
+        padding-top: 70px;
+      }
+      .navbar-brand {
+        font-weight: bold;
+      }
+      .panel {
+        text-align: center;
+      }
+      .panel-body {
+        font-size: 110%;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">BLDS Data Spec</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Learn more <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#samples">Sample Data</a></li>
+                <li><a href="#involved">Get Involved</a></li>
+                <li><a href="#partners">Partners & Contributors</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit?usp=sharing">Data Specification</a></li>
+            <li><a href="https://github.com/open-data-standards/permitdata.org/issues">Discussion Forum</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>BLDS Data Specification</h1>
+        <p>The Building &amp; Land Development Specification (BLDS) is a standard for sharing open data on building and construction permits issued by municipal governments.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit?usp=sharing" role="button">View the spec &raquo;</a>
+        </p>
+      </div>
+
+      <div id="overview" class="page-header">
+        <h1>What is the BLDS Standard?</h1>
+      </div>
+
+      <p>
+        The <strong>BLDS</strong> (pronounced "Builds") data standard is a collaborative effort by civic technology companies, governments and other interested parties to create a shared data specification for building and construction permit data. This is part of a much broader effort to create shared standards for the open data being released by state, county and municipal governments across the country.
+      </p>
+
+      <p>
+        <a href="http://www.codeforamerica.org/governments/data-standards-faq/">Creating shared data standards across governments</a> is a critical milestones that must be realized to advance the open data movement to fully realize all of the potential benefits of openly publishing government data.
+      </p>
+
+      <div id="benefits" class="page-header">
+        <h1>Why is a data standard needed?</h1>
+      </div>
+
+      <p>
+        The effort to create a BLDS data standard underscores the importance of government data on building permits and highlights the possible insights that can be gained from making it easier to use. Building permits are often viewed as “municipal exhaust” – less immediate and visceral than other kinds of open data like crime data and restaurant health scores. But building permit data can provide huge insights to those working to understand and improve communities.</p>
+
+      <p>
+        Permits data can be used as a proxy for economic activity and allow for insights into how an upswing (or downturn) in the economy plays out at the community level. It might show the changing character of neighborhoods, and how gentrification is playing out in cities. Additionally, it might help governments <a href="http://www.hbs.edu/faculty/Publication%20Files/14-034_3dcc83ea-aa8d-463d-bd66-d0ff8c267506.pdf">foster empathy with those they serve</a>, by giving insights into the operations of government.
+      </p>
+
+      <div id="samples" class="page-header">
+        <h1>Sample Data Sets</h1>
+      </div>
+      <div class="row"> <!-- Row -->
+         <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">California</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.civicdata.com/group/blds-building-permit-data">City of Alameda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">New Jersey</h3>
+              </div>
+              <div class="panel-body">
+                <p>City of Newark</p>
+              </div>
+            </div>
+          </div>         
+          <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Nebraska</h3>
+              </div>
+              <div class="panel-body">
+                <p>City of Omaha</p>
+              </div>
+            </div>
+          </div>
+         
+        </div> <!-- /Row -->
+         <div class="row"> <!-- Row -->
+         <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Nevada</h3>
+              </div>
+              <div class="panel-body">
+                <p>City of Reno</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Massachusetts</h3>
+              </div>
+              <div class="panel-body">
+                <p>City of Framingham</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Your State</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="https://github.com/open-data-standards/permitdata.org/issues">Add your city or county</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- /Row -->
+
+      <div id="involved" class="page-header">
+        <h1>How can I get involved?</h1>
+      </div>
+
+      <p>
+        If you are interested in using BLDS data, you can download and access sample data</a> that is being published by different municipal governments.
+      </p>
+
+      <p>
+        If you work for a company that is interested in using or promoting BLDS data, you can add your name to the list of partners &amp; contributors below by <a href="https://github.com/open-data-standards/permitdata.org/issues">opening an issue</a> on this GitHub repo. To add sample data sets to the list above, you can open an issue or <a href="https://github.com/open-data-standards/permitdata.org">send a pull request</a>.
+      </p>
+
+      <p>
+        Others interested in helping out can review the <a href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit?usp=sharing">draft specification here</a>, and join the <a href="https://github.com/open-data-standards/permitdata.org/issues">discussion forum</a> to add thoughts and feedback.
+      </p>
+
+      <p>If you work for a government that is interested in publishing data in the BLDS format, you can get in touch <a href="mailto:developers@accela.com">here</a>.</p>
+
+      <div id="partners" class="page-header">
+        <h1>Partners &amp; contributors</h1>
+      </div>
+
+        <p>Contributors listed below provided input into the <a href="https://docs.google.com/document/d/19F2I18MnqVa8-xrm6VGiSziJwniqE8rrYlx98lkTh3w/edit">initial draft</a> of the BLDS standard. Partners listed below have expressed an interest in contributing to the continued devleopment of the standard.</p>
+
+        <div class="row"> <!-- Row -->
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="https://www.accela.com/">Accela</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.buildfax.com/">BuildFax</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://civicinsight.com/">CivicInsight</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.drivedecisions.com/">DR-i-VE Decisions</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.sitecompli.com/">SiteCompli</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.socrata.com/">Socrata</a></p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /Row -->
+         <div class="row"> <!-- Row -->
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contributor</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.zillow.com/">Zillow</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Partner</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.esri.com/">ESRI</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Partner</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.junar.com/">Junar</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Partner</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.nucivic.com/">NuCivic</a></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Partner</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://www.ontodia.com/">Ontodia</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Partner</h3>
+              </div>
+              <div class="panel-body">
+                <p><a href="http://buildingeye.com">Buildingeye</a></p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /Row -->
+
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+      /*!
+       * IE10 viewport hack for Surface/desktop Windows 8 bug
+       * Copyright 2014 Twitter, Inc.
+       * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+       * details, see http://creativecommons.org/licenses/by/3.0/.
+       */
+
+      // See the Getting Started docs for more information:
+      // http://getbootstrap.com/getting-started/#support-ie10-width
+
+      (function () {
+        'use strict';
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+          var msViewportStyle = document.createElement('style')
+          msViewportStyle.appendChild(
+            document.createTextNode(
+              '@-ms-viewport{width:auto!important}'
+            )
+          )
+          document.querySelector('head').appendChild(msViewportStyle)
+        }
+      })();
+    </script>
+  </body>
+</html>
