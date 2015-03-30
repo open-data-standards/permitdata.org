@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/open-data-standards/permitdata.org.png?label=ready&title=Ready)](https://waffle.io/open-data-standards/permitdata.org)
+
 # BLDS Data Specification
 
 The BLDS (pronounced "Builds") data standard is a collaborative effort by civic technology companies, governments and other interested parties to create a shared data specification for building and construction permit data. This is part of a much broader effort to create shared standards for the open data being released by state, county and municipal governments across the country.
