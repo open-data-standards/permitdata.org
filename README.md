@@ -4,6 +4,8 @@
 
 The BLDS (pronounced "Builds") data standard is a collaborative effort by civic technology companies, governments and other interested parties to create a shared data specification for building and construction permit data. This is part of a much broader effort to create shared standards for the open data being released by state, county and municipal governments across the country.
 
+Specific details of the BLDS data standard can be [found in the wiki](https://github.com/open-data-standards/permitdata.org/wiki).
+
 ## Adding an organization to the list of partners
 
 Open an issue with the name of your organziation, and we'll add it to the list.
