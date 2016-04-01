@@ -1,6 +1,6 @@
 # Version History
 
-* Version [1.1](https://github.com/open-data-standards/permitdata.org/issues?q=milestone%3A%22Version+1.1%22)
+* Version [1.2](https://github.com/open-data-standards/permitdata.org/issues?q=milestone%3A%22Version+1.2%22)
 
 # History of All Changes
 
